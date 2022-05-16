@@ -1,6 +1,6 @@
 exports.repoPath = [
   {
-    name: "vite-vue3-tailwind-starter",
+    name: "vite-vue-ts",
     repo: "github:web2033/vite-vue3-tailwind-starter",
   },
   {

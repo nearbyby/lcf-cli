@@ -16,7 +16,7 @@ program
   )
   .usage("<command> [options]");
 
-program.name("lcc").usage("<command> [options]");
+program.name("lcf").usage("<command> [options]");
 
 // 监听 --help 指令
 program.on("--help", function () {
@@ -34,7 +34,7 @@ program.on("--help", function () {
   console.log();
   console.log(
     ` Run ${chalk.cyan(
-      "lcc <command> --help"
+      "lcf <command> --help"
     )} for detailed usage of given command.`
   );
   console.log();
